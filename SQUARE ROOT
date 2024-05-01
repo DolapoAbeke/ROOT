@@ -1,0 +1,33 @@
+int main() {
+  
+  //declcaring 3 varibles 
+  int a;
+  int b;
+  int c;
+
+    //portion to enter in varibles 
+    std::cout <<"Enter a \n" ;
+  std::cin >> a;
+
+    std::cout <<"Enter b \n" ;
+  std::cin >> b;
+  
+    std::cout <<"Enter c \n" ;
+  std::cin >> c;
+
+//declaring the roots
+double root1, root2;
+    root1 = (-b + std::sqrt(b*b - 4*a*c)) / (2*a);
+    root2 = (-b - std::sqrt(b*b - 4*a*c)) / (2*a);
+
+    //the outputs 
+std::cout << "Root 1 is " << root1 <<"\n";
+std::cout << "Root 2 is " << root2 <<"\n";
+
+
+  
+
+
+  
+  return 0;
+}
